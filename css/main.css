@@ -1,0 +1,27 @@
+body {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h3 {
+  color: #cc00cc;
+}
+
+.btn-twitter {
+  background-color: #00acee;
+  border-color: #009ad5;
+}
+
+.btn-facebook {
+  background-color: #4868ac;
+  border-color: #314776;
+}
+
+.btn-pinterest {
+  background-color: #b62f26;
+  border-color: #b62f26;
+}
+
+img {
+  border-radius: 20px;
+}
