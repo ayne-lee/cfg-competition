@@ -1,5 +1,5 @@
 body {
-  margin-left: 50px;
+  margin-left: 100px;
   margin-right: 50px;
 }
 h1 {
@@ -13,16 +13,19 @@ h3 {
 .btn-twitter {
   background-color: #00acee;
   border-color: #009ad5;
+  color:white;
 }
 
 .btn-facebook {
   background-color: #4868ac;
   border-color: #314776;
+  color: white;
 }
 
 .btn-pinterest {
   background-color: #b62f26;
   border-color: #b62f26;
+  color: white;
 }
 
 img {
