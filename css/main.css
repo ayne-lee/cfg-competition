@@ -70,18 +70,23 @@ input[type=submit]:hover {
   background-color: #00acee;
   border-color: #009ad5;
   color:white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
+
 
 .btn-facebook {
   background-color: #4868ac;
   border-color: #314776;
   color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .btn-pinterest {
   background-color: #b62f26;
   border-color: #b62f26;
   color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 img {
