@@ -23,14 +23,6 @@ h6 {
   height:380px;
 }
 
-.blur{
-  -webkit-filter: blur(8px);
-  -moz-filter: blur(8px);
-  -o-filter: blur(8px);
-  -ms-filter: blur(8px);
-  filter: blur(8px);
-}
-
 .btn-twitter {
   background-color: #00acee;
   border-color: #009ad5;
