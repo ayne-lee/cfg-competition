@@ -1,0 +1,48 @@
+.btn-twitter {
+  background-color: #00acee;
+  border-color: #009ad5;
+}
+
+.btn-facebook {
+  background-color: #4868ac;
+  border-color: #314776;
+}
+
+.btn-pinterest {
+  background-color: #b62f26;
+  border-color: #b62f26;
+}
+
+.subheading {
+  color: #cc00cc;
+}
+
+img {
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+#Intro {
+
+
+}
+
+img#BannerPicture {
+  max-height: 350px;
+  max-width: 100%
+      }
+.TextInfo {
+  border: 1px solid black
+  border-radius: 20px;
+  background-color: #DCDCDC;
+}
+
+.footer {
+  position: Responsive sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #cc00cc;
+  color: white;
+  text-align: center;
+}
