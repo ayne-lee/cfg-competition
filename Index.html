@@ -11,36 +11,46 @@
 <body>
 
 <header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">
-    <img src="logo.jpeg" width="30" height="30" class="d-inline-block align-top" alt="">
-    The Leeds Women's Lifeline
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="container1">
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="Index.html">Home</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="FoodBank.html">Food Facilities</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Women Refuges</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="SanitaryInfo.html">Sanitary Products</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Emergency Contacts</a>
-      </li>
-    </ul>
+
+  <!--emergency shut down -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <a class="et_pb_button et_pb_custom_button_icon et_pb_button_0 exit_btn et_pb_bg_layout_light" href="https://www.google.co.uk" data-icon="">CLICK HERE TO EXIT SITE IMMEDIATELY - SITE WILL SHUTDOWN</a>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="logo.jpeg" width="30" height="30" class="d-inline-block align-top" alt="">
+      The Leeds Women's Lifeline
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container1">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="Index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="FoodBank.html">Food Facilities</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="WCAS.html">Women Refuges</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="SanitaryInfo.html">Sanitary Products</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="Emergencycontactsfinalpage.html">Emergency Contacts</a>
+        </li>
+      </ul>
+
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+
 </header>
 
 <!-- <div class="hero"></div> -->
@@ -56,7 +66,7 @@
       <h3>About Us</h3>
       <blockquote>
       <br>
-      <p>We are here to help support adn empower women across Leeds.</p>
+      <p>We are here to help support and empower women across Leeds.</p>
       <button class='btn-inspo btn btn-lg'onclick="myFunction()">Click Me!</button>
 
       <script>
@@ -76,16 +86,16 @@
 <div class="container2">
   <form action="/action_page.php">
     <label for="fname">Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <input type="text" id="fname" name="firstname" placeholder="Your name">
 
     <label for="lname">Email</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your email..">
+    <input type="text" id="lname" name="lastname" placeholder="Your email">
 
     <label for="lname">Contact Number</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your number..">
+    <input type="text" id="lname" name="lastname" placeholder="Your number">
 
     <label for="subject">Message</label>
-    <textarea id="subject" name="subject" placeholder="Your message.." style="height:200px"></textarea>
+    <textarea id="subject" name="subject" placeholder="Your message..." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
   </form>
@@ -95,15 +105,42 @@
 </div>
 </div>
 
+
+<!--Icon Library-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--Font icons-->
 <div id='social-buttons'>
-  <button class='btn-twitter btn btn-lg'>Twitter</button>
-  <button class='btn-facebook btn btn-lg'>Facebook</button>
-  <button class='btn-pinterest btn btn-lg'>Pinterest</button>
-  <br>
-  <br>
-  <br>
-  <br>
+  <div class="container">
+    <div class="row">
+      <div class=""><a href="#" class="fa fa-facebook"></a></div>
+      <div class=""><a href="#" class="fa fa-twitter"></a></div>
+      <div class=""><a href="#" class="fa fa-instagram"></a></div>
+      <div class=""><a href="#" class="fa fa-youtube"></a></div>
+      <div class=""><a href="#" class="fa fa-google"></a></div>
+    </div>
+  </div>
 </div>
+</div>
+
+<div class="footer">
+  <p>Thank you for using our website!</p>
+  <script>
+  	var currentTime = new Date(),
+        hours = currentTime.getHours(),
+        minutes = currentTime.getMinutes();
+  	if (minutes < 10) {
+  	 minutes = "0" + minutes;
+    }
+  	document.write(hours + ":" + minutes)
+  </script>
+  <script>
+  var currentDate = new Date(),
+      day = currentDate.getDate(),
+      month = currentDate.getMonth() + 1,
+      year = currentDate.getFullYear();
+  document.write(day + "/" + month + "/" + year)
+</script>
 
 </div>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
