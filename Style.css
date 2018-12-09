@@ -2,7 +2,7 @@ body {
   margin-left: 50px;
   margin-right: 50px;
   text-align: center;
-  font-size: 120%;
+  font-size: 100%;
   padding-bottom: 70px;
 }
 
@@ -130,13 +130,47 @@ body {
     content: "\2796";
 } */
 
-h3 {
+/*h3 {
   color: #cc00cc;
-}
+}*/
 
 h5 {
   text-align: center;
+  font-color:#f22ed4;
 }
+
+b, strong {
+  color: #f22ed4;
+}
+
+/* search bar */
+.search-container {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+/* Bootstrap overrides */
+.card, .btn, .form-control {
+      border-radius: 0;
+}
+
+
+.btn-primary {
+    background-color: #f22ed4;
+    border-color: #f22ed4;
+}
+
+
 
 .et_pb_button {
   position: relative;
@@ -144,6 +178,7 @@ h5 {
   border: 2px solid;
   background-color: red;
   color: white;
+  width: 100%;
 }
 
 .danger {
