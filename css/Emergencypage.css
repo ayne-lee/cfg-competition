@@ -5,14 +5,14 @@ body {
   text-align: center;
 }
 
-#timefooter {
+.timefooter {
   position: responsive sticky;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: black!important;
+  background-color: #cc00cc!important;
   color: white;
-  display:block;
+  display: inline-block;
   text-align: center!important;
 }
 
@@ -43,7 +43,7 @@ b, strong {
 }
 
 
-
+/* exit button */
 .et_pb_button {
   position: relative;
   padding: .3em 1em;
