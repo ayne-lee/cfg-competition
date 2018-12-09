@@ -5,14 +5,15 @@ body {
   text-align: center;
 }
 
-.footer {
-  position: Responsive sticky;
+#timefooter {
+  position: responsive sticky;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #cc00cc;
+  background-color: black!important;
   color: white;
-  text-align: center;
+  display:block;
+  text-align: center!important;
 }
 
 
@@ -20,17 +21,9 @@ body {
   height: 20%;
 }
 
-.pagination {
-  margin-bottom: 15px;
-}
-
 /* Add a grey background color on mouse-over */
 .navbar a:hover {
   color: #ff0066;
-}
-
-.ul {
-    display: inline-block;
 }
 
 
@@ -65,10 +58,6 @@ b, strong {
   list-style-type: none;
   margin: 0%;
   padding: 0%;
-}
-
-#social-buttons {
-  text-align: left;
 }
 
 

@@ -18,7 +18,7 @@
 
   <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="css/Emergencypage.css">
   </head>
 
   <!--Body-->
@@ -60,11 +60,6 @@
           <a class="nav-link" href="Emergencycontactsfinalpage.html">Emergency Contacts</a>
         </li>
       </ul>
-      <div class="search-container">
-        <form action="/action_page.php">
-          <input type="text" placeholder="Search...">
-          <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
       </div>
     </div>
   </nav>
@@ -95,7 +90,7 @@
 <!-- First column -->
 <div class="container-fluid">
   <div class="row">
-          <div id="danger" class="col">
+          <div id="danger" class="col-sm-4">
         <h4>Are you in danger?</h4>
             <br>
         <h5>Emergency Services</h5>
@@ -118,7 +113,7 @@
 
 <!--Second column -->
 
-          <div id="health" class="col">
+          <div id="health" class="col-sm-4">
             <h4>Dealing with Mental Health issues?</h4>
               <br>
               <h5>Leeds Crisis Assessment Service</h5>
@@ -151,8 +146,8 @@
 
         </div>
 
-              <!--fourth column -->
-          <div id="abuse" class="col">
+              <!--third column -->
+          <div id="abuse" class="col-sm-4">
             <h4>Is someone or yourself suffering from abuse?</h4>
               <br>
                 <h5>24 Hour Leeds Domestic Violence Helpline</h5>
@@ -189,56 +184,59 @@
     <!--Icon Library-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!--Font icons-->
-<div id='social-buttons'>
-    <div class="row">
-      <div class="container">
-        <div class="col">
-        <div class=""><a href="#" class="fa fa-facebook"></a></div>
-      </div>
 
-      <div class="col">
-        <div class=""><a href="#" class="fa fa-twitter"></a></div>
-      </div>
+<br>
+<br>
+<br>
 
-
-      <div class="col">
-        <div class=""><a href="#" class="fa fa-instagram"></a></div>
-      </div>
-
-
-      <div class="col">
-        <div class=""><a href="#" class="fa fa-youtube"></a></div>
-      </div>
-
-
-      <div class="col">
-        <div class=""><a href="#" class="fa fa-google"></a></div>
+<div class="container">
+  <div class="row">
+    <div class ="col-md-6 col-sm-6">
+      <div class='center-block social-buttons'>
+        <div class ="col-md-6 col-sm-6">
+          <div class=""><a href="#" class="fa fa-facebook"></a></div>
+        </div>
+        <div class ="col-md-6 col-sm-6">
+          <div class=""><a href="#" class="fa fa-twitter"></a></div>
+        </div>
+        <div class ="col-md-6 col-sm-6">
+          <div class=""><a href="#" class="fa fa-instagram"></a></div>
+        </div>
+        <div class ="col-md-6 col-sm-6">
+          <div class=""><a href="#" class="fa fa-youtube"></a></div>
+        </div>
+        <div class ="col-md-6 col-sm-6">
+          <div class=""><a href="#" class="fa fa-google"></a></div>
+        </div>
         </div>
       </div>
     </div>
+  <div class="row">
+      <div class ="col-md-6 col-sm-6">
+          <div class="center-block timefooter">
+            <p>Thank you for using our website!</p>
+            <script>
+            	var currentTime = new Date(),
+                  hours = currentTime.getHours(),
+                  minutes = currentTime.getMinutes();
+            	if (minutes < 10) {
+            	 minutes = "0" + minutes;
+              }
+            	document.write(hours + ":" + minutes)
+          </script>
+          <script>
+            var currentDate = new Date(),
+                day = currentDate.getDate(),
+                month = currentDate.getMonth() + 1,
+                year = currentDate.getFullYear();
+            document.write(day + "/" + month + "/" + year)
+          </script>
+      </div>
+    </div>
+ </div>
 </div>
 
-	        <div class="footer">
-      <p>Thank you for using our website!</p>
-      <script>
-      	var currentTime = new Date(),
-            hours = currentTime.getHours(),
-            minutes = currentTime.getMinutes();
-      	if (minutes < 10) {
-      	 minutes = "0" + minutes;
-        }
-      	document.write(hours + ":" + minutes)
-      </script>
-      <script>
-      var currentDate = new Date(),
-          day = currentDate.getDate(),
-          month = currentDate.getMonth() + 1,
-          year = currentDate.getFullYear();
-      document.write(day + "/" + month + "/" + year)
-    </script>
 
-    </div>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
