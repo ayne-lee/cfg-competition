@@ -9,7 +9,7 @@ body {
   position: responsive sticky;
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 100%!important;
   background-color: #cc00cc!important;
   color: white;
   display: inline-block;
